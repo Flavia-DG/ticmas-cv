@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Flavia Fernandez</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/function.js" defer></script>
+
+     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/652cf6bfe1.js" crossorigin="anonymous"></script>
+
+</head>
+    <body>
+         <!-- Menú -->
+        <div class="header">
+            <div class="contenedor-logo">
+            <img class="logo" src="img/flavia-fernandez.png"/>
+            </div>
+            <div class="contenedor-menu">
+                <nav class="menu">
+                <button class="tablinks" onclick="openTab(event, 'Datos Personales')" id="defaultOpen">Datos Personales</button>
+                <button class="tablinks" onclick="openTab(event, 'Educacion')">Educación</button>
+                <button class="tablinks" onclick="openTab(event, 'Experiencia Laboral')">Experiencia Laboral</button>
+                <button class="tablinks" onclick="openTab(event, 'Habilidades')">Habilidades</button>
+                <button class="tablinks" onclick="openTab(event, 'Contacto')">Contacto</button>
+                </nav>
+            </div>
+         </div>    
+    <!-- CV -->
+       <div class="contenedor-columnas">
+    
+            <div class="contenidos-cv-foto">
+            </div>
+
+            <div class="contenidos-cv">
+
+                 <!-- Datos Personales-->
+                <div id="Datos Personales" class="tabcontent">
+                
+                    <h2>¡Hola!<br>Mi nombre es Flavia</h2>
+                    <p>Soy Diseñadora Gráfica egresada de la Universidad de Buenos Aires.</p>
+                    <p>Nací hace 35 años en Avellaneda, Provincia de Buenos Aires<br> y hace 4 que vivo en Tilcara, Jujuy.
+                    </p>
+                    <div class="info">
+                       <ul class="redes">
+                        <li><a class="rrss" href="https://www.linkedin.com/in/flaviaafernandez/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></li>
+                        <li><a class="rrss" href="https://www.behance.net/flaviafernandez" target="_blank"><i class="fa-brands fa-behance"></i>Behance</a></li>
+                        <li><a class="rrss" href="https://dribbble.com/flaviafernandez" target="_blank"><i class="fa-brands fa-dribbble"></i>Dribbble</a></li>
+                        </ul>
+                     
+                    </div>
+                    
+                </div>
+
+                <!-- Educación-->
+
+                <div id="Educacion" class="tabcontent">
+                    <h3>Educación</h3>
+                    <div class="info">
+                        <ul class="items">
+                            <li><p>2006 - 2014 |  <strong>Diseñadora Gráfica  </strong><br>
+                                <span class="txt-chico">Universidad de Buenos Aires - Facultad de Arquitectura Diseño y Urbanismo</span></p>
+                            </li>
+                            <li><p>2003 - 2005 |  <strong>Bachiller en Economía y Gestión de las Organizaciones</strong><br>
+                                <span class="txt-chico">Instituto Cristo Rey - Dock Sud, Avellaneda</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Cursos</h3>
+                    <div class="info">
+                        <ul class="items">
+                            <li><p>2022 |  <strong>Argentina Programa - Primer etapa</strong><br>
+                                <span class="txt-chico">Subsecretaría de Economía del Conocimiento de la Nación y la Cámara de la Industria Argentina del Software (CESSI)</span></p>
+                            </li>
+                            <li><p>2021 |  <strong>Capacitación Universitaria Extracurricular en Género y Movimientos Feministas</strong><br>
+                                <span class="txt-chico">Facultad de Filosofía y Letras de la Universidad de Buenos Aires | Instituto de Formación Sholem Buenos Aires</span></p>
+                            </li>
+                            <li><p>2017 |  <strong>Comunicación en Redes Sociales</strong><br>
+                                <span class="txt-chico">Centro Universitario de las Industrias Culturales Argentinas - Universidad Nacional de Avellaneda</span></p>
+                            </li>
+                            <li><p>2017 |  <strong>Perspectiva de Género en los Medios Audiovisuales</strong><br>
+                                <span class="txt-chico">Defensoría del Público</span></p>
+                            </li>
+                            <li><p>2017 |  <strong>Fundamentos de una Página Web  </strong><br>
+                              <span class="txt-chico">Educación IT - Centro de Capacitación y Desarrollo Profesional</span></p>
+                            </li>
+                            <li><p>2017 |  <strong>Introducción a JavaScript </strong <br>
+                                 <span class="txt-chico">Educación IT - Centro de Capacitación y Desarrollo Profesional</span></p>
+                            </li>
+                        </ul>
+                   </div>
+                </div>
+
+                <!-- Experiencia Laboral-->
+
+                <div id="Experiencia Laboral" class="tabcontent">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="info">
+                        <button class="desplegable"><p>2023 |  <strong>Diseñadora Gráfica</strong><br>
+                            <span class="txt-chico">Ministerio de Cultura de la Nación · Profesional independiente</span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Diseño gráfico de piezas digitales, piezas de imprenta para exhibiciones
+                            y aplicaciones gráficas para audiovisuales en el Museo Regional de Pintura José Antonio Terry,
+                            dependiente de la Dirección Nacional de Museos.</p>
+                        </div>
+                        
+                        <button class="desplegable"><p>2019 - 2023 |  <strong>Lead Designer</strong><br>
+                            <span class="txt-chico">Martian Arts -  <a href="https://martianarts.com" target="_blank"> martianarts.com</a></span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Dirección de arte.
+                            Diseño de identidad: diseño y desarrollo de imagen y comunicación institucional en sistemas de baja, mediana y alta complejidad.
+                            Diseño y desarrollo de páginas web, diseño de interfaz y experiencia de usuari@
+                            Desarrollo conceptual y diseño de campañas publicitarias.
+                            Diseño de packaging.
+                            Diseño de piezas impresas: afiches, volantes, papelería institucional, dípticos, trípticos, etc.
+                            Diseño para redes sociales.
+                            Preparación de archivos para imprenta.</p>
+                        </div>
+                        
+                        <button class="desplegable"><p>2014 - Actualidad |  <strong>Diseñadora Gráfica</strong><br>
+                            <span class="txt-chico">Freelance</span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Diseño de identidad y comunicación institucional de alta complejidad.
+                            Diseño de páginas web.
+                            Diseño editorial.
+                            Diseño para redes sociales.</p>
+                        </div>
+
+                        <button class="desplegable"><p>2016 - 2019 |  <strong>Diseñadora Gráfica Senior</strong><br>
+                            <span class="txt-chico">Pesto Studio</span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Diseño editorial: maquetación y armado del catálogo de venta de la marca Bagués, de productos cosméticos y de cuidado personal.
+                            Retoque fotográfico.
+                            Diseño de piezas impresas: afiches, volantes, papelería institucional, dípticos, trípticos, etc.</p>
+                        </div>
+
+                        <button class="desplegable"><p>2015 - 2016 |  <strong>Docente auxiliar Ad Honorem</strong><br>
+                            <span class="txt-chico">Universidad de Buenos Aires</span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Docente auxiliar de la cátedra Rico en la materia anual de Diseño Gráfico II
+                            de la Facultad de Arquitectura Diseño y Urbanismo de la Universidad de Buenos Aires.</p>
+                        </div>
+
+                        <button class="desplegable"><p>2013 - 2016 |  <strong>Diseñadora Gráfica</strong><br>
+                            <span class="txt-chico">Agencia Social Queen</span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Desarrollo de sitios web con gestores de contenido (Wordpress, Joomla)
+                            Diseño para redes sociales.
+                            Diseño de piezas impresas: afiches, volantes, papelería institucional, vía pública, banners, dípticos, trípticos, etc.</p>
+                        </div>
+
+                        <button class="desplegable"><p>2010 - 2011 |  <strong>Diseñadora Gráfica Junior</strong><br>
+                            <span class="txt-chico">La Cocina Identidad de Marcas </span></p></button>
+                        <div class="panel">
+                          <p class="txt-chico">Desarrollo y participación en proyectos de packaging para diversos clientes.
+                            Ilustraciones.
+                            Preparación de archivos para su correcta implementación en imprentas.
+                            Supervición técnica en imprenta.
+                            Soporte y asistencia a los distintos grupos de trabajo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Habilidades-->
+                <div id="Habilidades" class="tabcontent">
+                    <h4>Adobe</h4>
+                    <div class="info-2">
+                        <p class="txt-chico">Illustrator | 90%</p>
+                            <div class="barra-habilidades">
+                             <div class="habilidad illustrator"></div>
+                            </div>
+
+                            <p class="txt-chico">Photoshop |  90%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad illustrator"></div>
+                            </div>
+
+                            <p class="txt-chico">InDesign | 75%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad indesign"></div>
+                            </div>
+
+                            <p class="txt-chico">After Effects | 30%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad after"></div>
+                            </div>  
+
+                    </div>
+                    <h4>Prototipado y Diseño Web</h4>
+                    <div class="info-2">
+                        <p class="txt-chico">Figma | 60%</p>
+                            <div class="barra-habilidades">
+                             <div class="habilidad figma"></div>
+                            </div>
+
+                            <p class="txt-chico">Sketch |  60%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad figma"></div>
+                            </div>
+                    </div>
+                    <h4>Sistemas de Gestión de Contenidos CMS</h4>
+                    <div class="info-2">
+                        <p class="txt-chico">Wordpress| 85%</p>
+                            <div class="barra-habilidades">
+                             <div class="habilidad wp"></div>
+                            </div>
+
+                            <p class="txt-chico">Squarespace | 85%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad wp"></div>
+                            </div>
+                            <p class="txt-chico">Teachable | 75%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad indesign"></div>
+                            </div>
+                    </div>
+                    <h4>Maquetado Web</h4>
+                    <div class="info-2">
+                        <p class="txt-chico">HTML5 | 60%</p>
+                            <div class="barra-habilidades">
+                             <div class="habilidad figma"></div>
+                            </div>
+
+                            <p class="txt-chico">CSS3 | 60%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad figma"></div>
+                            </div>
+                            <p class="txt-chico">JavaScript | 1%</p>
+                            <div class="barra-habilidades">
+                            <div class="habilidad java"></div>
+                            </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <!-- Contacto-->
+
+                <div id="Contacto" class="tabcontent">
+                    <h1>¿Hablamos?</h1>
+                    <div class="info">
+                        <form action="">
+                          
+                              <label for="fname">Nombre</label>
+                              <input type="text" id="nombre" name="firstname" placeholder="¿Cómo es tu nombre?">
+                          
+                              <label for="lname">Correo</label>
+                              <input type="email" id="email" name="email" placeholder="tucorreo@correo.com">
+                          
+                            <label for="subject">Asunto</label>
+                              <textarea id="subject" name="asunto" placeholder="¿En qué te puedo ayudar?" style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Enviar">
+                          
+                         </form>
+                        
+                       
+                   </div>
+                </div>   
+
+          </div> 
+        </div>
+
+    </body>
+</html>
